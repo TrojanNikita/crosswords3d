@@ -1,6 +1,8 @@
 import { Scene, Vector3 } from "@babylonjs/core";
 
 export interface ICube {
+	// имя
+	name: string;
 	// буква
 	letter: string;
 	// выделена или нет
